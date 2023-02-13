@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인생네컷</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="photos">
+            <div id="image1" class="photo-frame" onmouseover="hideText(1)" onmouseout="showText(1)"
+                onclick="alertText(1)">
+                <span id="description1" class="photo-description">첫 번째 이미지 설명</span>
+            </div>
+            <div id="image2" class="photo-frame" onmouseover="hideText(2)" onmouseout="showText(2)"
+                onclick="alertText(2)">
+                <span id="description2" class="photo-description">두 번째 이미지 설명</span>
+            </div>
+            <div id="image3" class="photo-frame" onmouseover="hideText(3)" onmouseout="showText(3)"
+                onclick="alertText(3)">
+                <span id="description3" class="photo-description">세 번째 이미지 설명</span>
+            </div>
+            <div class="photo-frame">
+                <iframe class="video" src="https://www.youtube.com/embed/agYZbSt-3LY" frameborder="0"></iframe>
+            </div>
+            <footer>
+                <p class="footer-title">Happy Day</p>
+                <p class="footer-date">2023.02.13</p>
+            </footer>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
